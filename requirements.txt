@@ -1,5 +1,4 @@
 fastmcp==2.11.3
-sqlite3
 pydantic==2.11.7
 langchain-voyageai==0.1.6
 langchain-community==0.3.27
