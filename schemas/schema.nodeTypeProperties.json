@@ -1,0 +1,4070 @@
+﻿[
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon_label",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "type",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SequenceVariant`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SequenceVariant",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "has_gene",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:Cell`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:Cell",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:Pathway`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:Pathway",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:Pathway`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:Pathway",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:Pathway`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:Pathway",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:Pathway`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:Pathway",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:Pathway`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:Pathway",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:Pathway`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:Pathway",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:AnatomicalEntity`:`biolink:BiologicalEntity`:`biolink:CellularComponent`:`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:AnatomicalEntity",
+      "biolink:BiologicalEntity",
+      "biolink:CellularComponent",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:LifeStage`:`biolink:NamedThing`:`biolink:OrganismalEntity`:`biolink:SubjectOfInvestigation`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:LifeStage",
+      "biolink:NamedThing",
+      "biolink:OrganismalEntity",
+      "biolink:SubjectOfInvestigation",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:Entity`:`biolink:GeneOrGeneProduct`:`biolink:GeneProductMixin`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:Polypeptide`:`biolink:Protein`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:Entity",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GeneProductMixin",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:Polypeptide",
+      "biolink:Protein",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:PhenotypicFeature`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:PhenotypicFeature",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:ChemicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:ChemicalEntityOrProteinOrPolypeptide`:`biolink:ChemicalOrDrugOrTreatment`:`biolink:Entity`:`biolink:MolecularEntity`:`biolink:NamedThing`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`",
+    "nodeLabels": [
+      "biolink:ChemicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:ChemicalEntityOrProteinOrPolypeptide",
+      "biolink:ChemicalOrDrugOrTreatment",
+      "biolink:Entity",
+      "biolink:MolecularEntity",
+      "biolink:NamedThing",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcess`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcess",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:Entity`:`biolink:NamedThing`:`biolink:OrganismTaxon`",
+    "nodeLabels": [
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:OrganismTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon_label",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Entity`:`biolink:GenomicEntity`:`biolink:Genotype`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Entity",
+      "biolink:GenomicEntity",
+      "biolink:Genotype",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "type",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:BiologicalProcessOrActivity`:`biolink:Entity`:`biolink:MolecularActivity`:`biolink:NamedThing`:`biolink:Occurrent`:`biolink:OntologyClass`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:BiologicalProcessOrActivity",
+      "biolink:Entity",
+      "biolink:MolecularActivity",
+      "biolink:NamedThing",
+      "biolink:Occurrent",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon_label",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "symbol",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "full_name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "in_taxon",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "type",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:ChemicalEntityOrGeneOrGeneProduct`:`biolink:Entity`:`biolink:Gene`:`biolink:GeneOrGeneProduct`:`biolink:GenomicEntity`:`biolink:MacromolecularMachineMixin`:`biolink:NamedThing`:`biolink:OntologyClass`:`biolink:PhysicalEssence`:`biolink:PhysicalEssenceOrOccurrent`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:ChemicalEntityOrGeneOrGeneProduct",
+      "biolink:Entity",
+      "biolink:Gene",
+      "biolink:GeneOrGeneProduct",
+      "biolink:GenomicEntity",
+      "biolink:MacromolecularMachineMixin",
+      "biolink:NamedThing",
+      "biolink:OntologyClass",
+      "biolink:PhysicalEssence",
+      "biolink:PhysicalEssenceOrOccurrent",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "namespace",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "provided_by",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "category",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "xref",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "exact_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "broad_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "subsets",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "synonym",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "iri",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "related_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "deprecated",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  },
+  {
+    "nodeType": ":`biolink:BiologicalEntity`:`biolink:Disease`:`biolink:DiseaseOrPhenotypicFeature`:`biolink:Entity`:`biolink:NamedThing`:`biolink:ThingWithTaxon`",
+    "nodeLabels": [
+      "biolink:BiologicalEntity",
+      "biolink:Disease",
+      "biolink:DiseaseOrPhenotypicFeature",
+      "biolink:Entity",
+      "biolink:NamedThing",
+      "biolink:ThingWithTaxon"
+    ],
+    "propertyName": "narrow_synonyms",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": false
+  }
+]
