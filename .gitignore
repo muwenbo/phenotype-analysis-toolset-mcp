@@ -59,10 +59,11 @@ tmp/
 *.tmp
 *.log
 
-# Database files (optional - uncomment if you don't want to track)
-# *.db
-# *.sqlite
-# *.sqlite3
+# Data files - excluded from git tracking
+data/
 
-# Large embedding files (optional - uncomment if too large)
-# embeddings/
+# Database files - will use Git LFS for large files
+# *.db files over 100MB should use LFS
+
+# Embedding files - will use Git LFS
+# embeddings/ files over 50MB should use LFS
