@@ -1,0 +1,15 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: http
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - voyageApiKey
+    properties:
+      voyageApiKey:
+        type: string
+        description: VoyageAI API key for embedding generation and search
+  exampleConfig:
+    voyageApiKey: YOUR_VOYAGE_API_KEY_HERE
