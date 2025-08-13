@@ -32,5 +32,8 @@ EXPOSE 3000
 ENV PORT=3000
 ENV PYTHONPATH=/app
 
+# VOYAGE_API_KEY will be provided at runtime via Smithery config
+ENV VOYAGE_API_KEY=""
+
 # Run the FastMCP server
 CMD ["python", "mcp_server.py"]
