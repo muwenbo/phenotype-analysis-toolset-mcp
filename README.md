@@ -1,5 +1,7 @@
 # Phenotype Analysis Toolset
 
+[![smithery badge](https://smithery.ai/badge/@muwenbo/phenotype-analysis-toolset-mcp)](https://smithery.ai/server/@muwenbo/phenotype-analysis-toolset-mcp)
+
 A comprehensive AI-powered phenotype analysis system that provides advanced semantic search and structured workflows for mapping clinical symptoms to HPO (Human Phenotype Ontology) terms. Built with FastMCP framework, supporting both Chinese and English medical terminology with RAG-based analysis.
 
 ## Key Features
@@ -74,6 +76,14 @@ A comprehensive AI-powered phenotype analysis system that provides advanced sema
 - `get_api_key_configuration()` - VOYAGE_API_KEY setup and validation
 
 ## Quick Start
+
+### Installing via Smithery
+
+To install phenotype-analysis-toolset-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@muwenbo/phenotype-analysis-toolset-mcp):
+
+```bash
+npx -y @smithery/cli install @muwenbo/phenotype-analysis-toolset-mcp --client claude
+```
 
 ### 1. Installation
 ```bash
@@ -221,4 +231,3 @@ phenotype_to_genes   -- HPO → Gene reverse mappings
 - **English Pipeline**: Extract → Standardize → Search → Select → Map  
 - **Confidence Thresholds**: 0.7+ for reliable clinical mappings
 - **Error Handling**: Graceful degradation with detailed error reporting
-
