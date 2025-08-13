@@ -18,12 +18,6 @@ from langchain_community.vectorstores import FAISS
 
 load_dotenv()
 
-if "VOYAGE_API_KEY" not in os.environ:
-    raise Exception("VOYAGE_API_KEY environment variable not set")
-  
-# Voyage API key
-VOYAGE_API_KEY = os.environ["VOYAGE_API_KEY"]
-
 mcp = FastMCP("phenotype-analysis-toolset-mcp")
 
 # Custom HPO Vector Store with API key handling
@@ -32,6 +26,11 @@ class ServerHPOVectorStore:
     
     def __init__(self, folder_path: str, api_key: str = None):
         self.folder_path = folder_path
+        if "VOYAGE_API_KEY" not in os.environ:
+            raise Exception("VOYAGE_API_KEY environment variable not set")
+        # Voyage API key
+        VOYAGE_API_KEY = os.environ["VOYAGE_API_KEY"]
+        
         self.api_key = api_key or VOYAGE_API_KEY
         self.vectorstore = None
         
