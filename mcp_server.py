@@ -83,7 +83,7 @@ class ServerHPOVectorStore:
                     'hpo_id': hpo_id,
                     'hpo_name': hpo_name,
                     'description': description,
-                    'score': similarity_score
+                    'score': float(similarity_score)
                 }
                 candidates.append(candidate)
             
