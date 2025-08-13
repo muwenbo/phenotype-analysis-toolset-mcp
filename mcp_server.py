@@ -10,13 +10,21 @@ from langchain_voyageai import VoyageAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
 # Configure Voyage API key if available
-VOYAGE_API_KEY = os.getenv("VOYAGE_API_KEY")
-if not VOYAGE_API_KEY:
-    load_dotenv()
+#VOYAGE_API_KEY = os.getenv("VOYAGE_API_KEY")
+#print(1, VOYAGE_API_KEY)
+#if VOYAGE_API_KEY is None:
+#    load_dotenv()
+#    print(2, VOYAGE_API_KEY)
 
-PORT = os.environ.get("PORT", 3000)
+load_dotenv()
 
-mcp = FastMCP("phenotype-analysis-toolset-mcp", host="0.0.0.0", port=PORT)
+if "VOYAGE_API_KEY" not in os.environ:
+    raise Exception("VOYAGE_API_KEY environment variable not set")
+  
+# Voyage API key
+VOYAGE_API_KEY = os.environ["VOYAGE_API_KEY"]
+
+mcp = FastMCP("phenotype-analysis-toolset-mcp")
 
 # Custom HPO Vector Store with API key handling
 class ServerHPOVectorStore:
@@ -809,4 +817,6 @@ def get_server_status() -> dict:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="streamable-http")
+
+    PORT = os.environ.get("PORT", 3000)
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=PORT)
