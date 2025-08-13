@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phenotype-analysis-toolset"
+version = "0.1.0"
+description = "Phenotype analysis toolset with FastMCP server for HPO term mapping"
+requires-python = ">=3.9"
+dependencies = [
+    "fastmcp==2.11.3",
+    "pydantic==2.11.7",
+    "langchain-voyageai==0.1.6",
+    "langchain-community==0.3.27",
+    "faiss-cpu==1.11.0.post1",
+    "python-dotenv==1.1.1",
+]
+
+[project.urls]
+Repository = "https://github.com/muwenbo/phenotype-analysis-toolset-mcp"
