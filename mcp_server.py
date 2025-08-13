@@ -9,13 +9,6 @@ from datetime import datetime
 from langchain_voyageai import VoyageAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
-# Configure Voyage API key if available
-#VOYAGE_API_KEY = os.getenv("VOYAGE_API_KEY")
-#print(1, VOYAGE_API_KEY)
-#if VOYAGE_API_KEY is None:
-#    load_dotenv()
-#    print(2, VOYAGE_API_KEY)
-
 load_dotenv()
 
 mcp = FastMCP("phenotype-analysis-toolset-mcp")
@@ -30,7 +23,7 @@ class ServerHPOVectorStore:
             raise Exception("VOYAGE_API_KEY environment variable not set")
         # Voyage API key
         VOYAGE_API_KEY = os.environ["VOYAGE_API_KEY"]
-        
+
         self.api_key = api_key or VOYAGE_API_KEY
         self.vectorstore = None
         
@@ -764,15 +757,12 @@ def get_server_status() -> dict:
                     vectorstore = ServerHPOVectorStore(embeddings_path)
                     if vectorstore.load_vectorstore():
                         embeddings_info["vector_store"] = "loaded successfully"
-                        embeddings_info["api_key_status"] = "configured" if VOYAGE_API_KEY else "missing"
                     else:
                         embeddings_info["vector_store"] = "load failed"
-                        embeddings_info["api_key_status"] = "configured" if VOYAGE_API_KEY else "missing"
                         if status_info["status"] == "healthy":
                             status_info["status"] = "degraded"
                 except Exception as e:
                     embeddings_info["vector_store"] = f"load failed: {str(e)}"
-                    embeddings_info["api_key_status"] = "configured" if VOYAGE_API_KEY else "missing"
                     if status_info["status"] == "healthy":
                         status_info["status"] = "degraded"
                 
@@ -816,6 +806,5 @@ def get_server_status() -> dict:
 
 
 if __name__ == "__main__":
-
     PORT = os.environ.get("PORT", 3000)
     mcp.run(transport="streamable-http", host="0.0.0.0", port=PORT)
