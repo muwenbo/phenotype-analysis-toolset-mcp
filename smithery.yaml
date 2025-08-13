@@ -1,0 +1,13 @@
+runtime: "container"
+startCommand:
+  type: "http"
+  configSchema:
+    type: "object"
+    properties:
+      VOYAGE_API_KEY:
+        type: "string"
+        description: "Your Voyage API key"
+    required: ["VOYAGE_API_KEY"]
+build:
+  dockerfile: "Dockerfile"
+  dockerBuildPath: "."
