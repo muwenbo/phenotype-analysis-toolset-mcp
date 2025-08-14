@@ -11,3 +11,13 @@ startCommand:
 build:
   dockerfile: "Dockerfile"
   dockerBuildPath: "."
+commandFunction:
+  # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+  |-
+  (config) => {
+    const env = {};
+    if (config.VOYAGE_API_KEY) {
+      env.VOYAGE_API_KEY = config.VOYAGE_API_KEY;
+    }
+    return { command: 'python', args: ['mcp_server.py'], env};
+  }
