@@ -19,12 +19,7 @@ class ServerHPOVectorStore:
     
     def __init__(self, folder_path: str, api_key: str = None):
         self.folder_path = folder_path
-        if "VOYAGE_API_KEY" not in os.environ:
-            raise Exception("VOYAGE_API_KEY environment variable not set")
-        # Voyage API key
-        VOYAGE_API_KEY = os.environ["VOYAGE_API_KEY"]
-
-        self.api_key = api_key or VOYAGE_API_KEY
+        self.api_key = api_key
         self.vectorstore = None
         
     def load_vectorstore(self):
@@ -332,9 +327,26 @@ def search_hpo_for_symptom(english_symptom: str, k: int = 5) -> dict:
         Top K HPO candidates with similarity scores
     """
     try:
+        # Get configuration from query parameters or environment
+        api_key = None
+        try:
+            request = mcp.request_context.get()
+            if request:
+                query_params = request.query_params
+                api_key = query_params.get("VOYAGE_API_KEY")
+        except:
+            pass  # Fallback to environment variable
+        
+        # Fallback to environment variable if not in query params
+        if not api_key:
+            api_key = os.getenv("VOYAGE_API_KEY")
+        
+        if not api_key:
+            return {"error": "VOYAGE_API_KEY not provided in query params or environment variables"}
+        
         script_dir = os.path.dirname(os.path.abspath(__file__))
         embeddings_path = os.path.join(script_dir, 'embeddings', 'voyage_3')
-        vectorstore = ServerHPOVectorStore(embeddings_path)
+        vectorstore = ServerHPOVectorStore(embeddings_path, api_key=api_key)
         
         if not vectorstore.load_vectorstore():
             return {"error": "Failed to load vector store. Please check VOYAGE_API_KEY configuration."}
@@ -754,13 +766,19 @@ def get_server_status() -> dict:
                 
                 # Test vector store loading
                 try:
-                    vectorstore = ServerHPOVectorStore(embeddings_path)
-                    if vectorstore.load_vectorstore():
-                        embeddings_info["vector_store"] = "loaded successfully"
+                    # Try to get API key from environment for status check
+                    api_key = os.getenv("VOYAGE_API_KEY")
+                    if api_key:
+                        vectorstore = ServerHPOVectorStore(embeddings_path, api_key=api_key)
+                        if vectorstore.load_vectorstore():
+                            embeddings_info["vector_store"] = "loaded successfully"
+                        else:
+                            embeddings_info["vector_store"] = "load failed"
+                            if status_info["status"] == "healthy":
+                                status_info["status"] = "degraded"
                     else:
-                        embeddings_info["vector_store"] = "load failed"
-                        if status_info["status"] == "healthy":
-                            status_info["status"] = "degraded"
+                        embeddings_info["vector_store"] = "API key not available for testing"
+                        embeddings_info["api_key_status"] = "missing"
                 except Exception as e:
                     embeddings_info["vector_store"] = f"load failed: {str(e)}"
                     if status_info["status"] == "healthy":
