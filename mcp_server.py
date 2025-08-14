@@ -327,19 +327,7 @@ def search_hpo_for_symptom(english_symptom: str, k: int = 5) -> dict:
         Top K HPO candidates with similarity scores
     """
     try:
-        # Get configuration from query parameters or environment
-        api_key = None
-        try:
-            request = mcp.request_context.get()
-            if request:
-                query_params = request.query_params
-                api_key = query_params.get("VOYAGE_API_KEY")
-        except:
-            pass  # Fallback to environment variable
-        
-        # Fallback to environment variable if not in query params
-        if not api_key:
-            api_key = os.getenv("VOYAGE_API_KEY")
+        api_key = os.getenv("VOYAGE_API_KEY")
         
         if not api_key:
             return {"error": "VOYAGE_API_KEY not provided in query params or environment variables"}

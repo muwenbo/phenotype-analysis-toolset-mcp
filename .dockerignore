@@ -94,4 +94,4 @@ uv.lock
 # Project specific - exclude large data files not needed in container
 # (These are handled by Git LFS but don't need to be in Docker build context)
 # Uncomment if you want to exclude from Docker build:
-# data/
+data/
