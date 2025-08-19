@@ -812,5 +812,5 @@ def get_server_status() -> dict:
 
 
 if __name__ == "__main__":
-    PORT = os.environ.get("PORT", 3000)
+    PORT = int(os.environ.get("PORT", 3000))
     mcp.run(transport="streamable-http", host="0.0.0.0", port=PORT)
