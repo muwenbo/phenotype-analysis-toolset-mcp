@@ -152,7 +152,7 @@ class ServerStatus(BaseModel):
     server_info: dict
 
 
-@mcp.tool
+
 def get_genes_by_hpo(hpo_id: str) -> dict:
     """Get genes associated with a given HPO term.
 
@@ -175,7 +175,7 @@ def get_genes_by_hpo(hpo_id: str) -> dict:
         "success": True
     }
 
-@mcp.tool
+
 def get_hpo_by_gene(gene_id: str) -> dict:
     """Get HPO terms associated with a given gene.
 
@@ -198,7 +198,7 @@ def get_hpo_by_gene(gene_id: str) -> dict:
         "success": True
     }
 
-@mcp.tool
+
 def get_diseases_by_gene(gene_id: str) -> dict:
     """Get diseases associated with a given gene.
 
@@ -221,7 +221,7 @@ def get_diseases_by_gene(gene_id: str) -> dict:
         "success": True
     }
 
-@mcp.tool
+
 def get_genes_by_disease(disease_id: str) -> dict:
     """Get genes associated with a given disease.
 
@@ -242,7 +242,7 @@ def get_genes_by_disease(disease_id: str) -> dict:
         "success": True
     }
 
-@mcp.tool
+
 def get_diseases_by_hpo(hpo_id: str) -> dict:
     """Get diseases associated with a given HPO term.
 
@@ -265,7 +265,7 @@ def get_diseases_by_hpo(hpo_id: str) -> dict:
         "success": True
     }
 
-@mcp.tool
+
 def get_hpo_by_disease(disease_id: str) -> dict:
     """Get HPO terms associated with a given disease.
 
@@ -286,7 +286,7 @@ def get_hpo_by_disease(disease_id: str) -> dict:
         "success": True
     }
 
-@mcp.tool
+
 def get_hpo_name_by_id(hpo_id: str) -> dict:
     """Get HPO term name by HPO ID.
     
@@ -484,8 +484,7 @@ If no suitable match: {"selected_hpo_id": null, "confidence": 0.0, "reasoning": 
                         "total_symptoms": 5,
                         "successfully_mapped": 4,
                         "high_confidence_mappings": 3,
-                        "avg_confidence": 0.82,
-                        "mapping_success_rate": 0.8
+                        "avg_confidence": 0.82
                     }
                 }
             }
@@ -500,7 +499,7 @@ If no suitable match: {"selected_hpo_id": null, "confidence": 0.0, "reasoning": 
     return workflow
 
 @mcp.tool
-def chinese_phenotype_anaylysis_workflow() -> WorkflowInstruction:
+def chinese_phenotype_analysis_workflow() -> WorkflowInstruction:
     """Get structured workflow instructions for analyzing Chinese phenotype descriptions.
     
     This tool provides a step-by-step strategy for MCP clients to process Chinese clinical text
@@ -625,8 +624,7 @@ If no suitable match: {"selected_hpo_id": null, "confidence": 0.0, "reasoning": 
                         "total_symptoms": 5,
                         "successfully_mapped": 4,
                         "high_confidence_mappings": 3,
-                        "avg_confidence": 0.82,
-                        "mapping_success_rate": 0.8
+                        "avg_confidence": 0.82
                     }
                 }
             }

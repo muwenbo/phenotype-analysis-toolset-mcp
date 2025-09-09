@@ -77,7 +77,7 @@ The system provides 6 main relationship query functions:
 - **FAISS + VoyageAI embeddings**: High-performance similarity search with 0.5-0.6 accuracy scores
 
 ### Structured Analysis Workflows
-- **Chinese Phenotype Analysis** (`chinese_phenotype_anaylysis_workflow`): 4-step workflow with extraction, translation, vector search, and HPO mapping
+- **Chinese Phenotype Analysis** (`chinese_phenotype_analysis_workflow`): 4-step workflow with extraction, translation, vector search, and HPO mapping
 - **English Phenotype Analysis** (`english_phenotype_analysis_workflow`): Streamlined 4-step workflow for English clinical text
 - **Confidence scoring**: 0.7+ threshold for reliable mappings
 - **Clinical categorization**: Neurological, cardiovascular, respiratory, etc.

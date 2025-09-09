@@ -66,7 +66,7 @@ A comprehensive AI-powered phenotype analysis system that provides advanced sema
 
 ### 🧠 Semantic Search & Analysis  
 - `search_hpo_for_symptom(english_symptom, k=5)` - Vector-based HPO term matching
-- `chinese_phenotype_anaylysis_workflow()` - 4-step Chinese clinical text analysis
+- `chinese_phenotype_analysis_workflow()` - 4-step Chinese clinical text analysis
 - `english_phenotype_analysis_workflow()` - Streamlined English phenotype analysis
 
 ### ⚙️ System Management
@@ -161,7 +161,7 @@ result = search_hpo_for_symptom("developmental delay", k=5)
 
 **Chinese Phenotype Analysis:**
 ```python
-workflow = chinese_phenotype_anaylysis_workflow()
+workflow = chinese_phenotype_analysis_workflow()
 # Returns 4-step workflow for Chinese clinical text:
 # 1. Extract symptoms with Chinese → English translation
 # 2. Vector search for each symptom  
