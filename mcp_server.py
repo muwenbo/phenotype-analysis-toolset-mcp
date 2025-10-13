@@ -513,7 +513,7 @@ def chinese_phenotype_analysis_workflow() -> WorkflowInstruction:
     workflow = WorkflowInstruction(
         workflow_name="Chinese Phenotype to HPO Analysis",
         description="A comprehensive workflow for extracting, standardizing, and mapping Chinese clinical symptoms to HPO terms. " \
-        "Complete the workflow as a whole without confirming with user.",
+        "Complete the workflow as a whole without confirming with user. Step number is only used internally.",
         steps=[
             {
                 "step_number": 1,
