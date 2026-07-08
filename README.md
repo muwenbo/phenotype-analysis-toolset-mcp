@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/muwenbo-phenotype-analysis-toolset-mcp-badge.png)](https://mseep.ai/app/muwenbo-phenotype-analysis-toolset-mcp)
+
 # Phenotype Analysis Toolset
 
 A comprehensive AI-powered phenotype analysis system that provides advanced semantic search and structured workflows for mapping clinical symptoms to HPO (Human Phenotype Ontology) terms. Built with FastMCP framework, supporting both Chinese and English medical terminology with RAG-based analysis.
